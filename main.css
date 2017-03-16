@@ -4,10 +4,6 @@ body{
     background-color: lightgray;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-}
 
 .top{
     background-color: black;
@@ -16,7 +12,6 @@ body{
 }
 .main{
     width: 100%;
-    background-color: #aa99cc;
     float: left;
 }
 
@@ -25,13 +20,27 @@ body{
     height: 400px;
     background-color:white;
     float: left;
-    margin-left: -300px;
+    margin-top: 20px;
+    margin-left: -320px;
+    margin-right: 20px;
     box-shadow: 5px 5px 5px #888888;
 }
 
 .mid{
-    background-color: #888888;
-    margin-right: 320px;
+    background-color: #fefff9;
+    margin-right: 340px;
+    margin-left: 20px;
+    box-shadow: 5px 5px 5px #888888;
 }
 
+img{
+  height: 100%;
+    max-width: 100px;
+}
+.pic{
+    width: 150px;
+    height: 200px;
+    float: left;
+    margin:20px;
+}
 
